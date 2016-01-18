@@ -1,0 +1,18 @@
+Instructions to compile and execute the Java Code through the Command Line in a Windows Environment
+
+1)Open the command line (cmd) and navigate with the cd command to this folder.
+2)In case Java is not configured to compile a file, copy and run this command (changing the jdk name as appropriate)
+	set path=%path%;C:\Program Files\Java\jdk1.8.0_25\bin
+3)cd inside the directory up to the 'src' folder
+4)now the system is ready to compile the code:
+	javac Controller.java
+5)After the code has been compiled, it is ready to be executed
+	java Controller
+	
+
+The Assigmnment Folder contains:
+1) Examples of Imports and Exports
+2) JavaDoc Documentation
+3) Project folders "src" containing the Java classes and the Images used in the application
+4) A Zip folder containing the whole project, importable in Eclipse IDE
+5) The PDF Report
